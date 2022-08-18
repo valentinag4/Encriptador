@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Encriptador</title>
+
+    <link rel="stylesheet" href="../assets/Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- header/logo -->
+    
+    <div class="div_header">
+        <img class="logo_alura"src="../assets/img/Logo.png" alt="Logo alura">
+    </div>
+     
+   <!------------------------------------------ main ------------------------------------------->
+
+    <div class="div_main">
+
+        <div class="div_izq">
+            <div class="div_mensaje">
+                
+                <textarea class="in_entrada" name="comentario" placeholder="Ingrese texto aqui"></textarea>
+
+                <div class="div_botones">
+                    <button class="div_encriptar" onclick="Encriptar()">Encriptar</button>
+                    <button class="div_desencriptar" onclick="desEncriptar()">Desencriptar</button>        
+                </div>
+            </div>
+        </div>
+
+        <div class="div_dere">
+            
+            <div class="div_salida">
+                
+                <div class="div_textosalida" >  
+                    <p class="salidaa"id="salidat"></p>
+                    <img class="muñeco" id="muñeco"src="../assets/img/Muñeco.svg" alt="Logo alura">
+                    
+                </div>
+                <div class="div_copiar">
+                    <button class=" but_copiar" id="copiar"onclick="copiarAlPortapapeles()">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/javaScript/main.js"></script>
+
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,237 @@
+/*------ Selector global------- */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; /* esto no cambia para todas las pantallas vamos a empezar a usar rem 1 rem son 10 px */
+}
+:root{
+    --color-main:#E5E5E5;
+}
+
+
+.div_header{
+    display: flex;
+    width: 100%;
+    
+    height: 4rem;
+    background: var(--color-main);;
+}
+.logo_alura{
+    height: 7%;
+    width: 8%;
+    display: flex;
+    position: absolute;
+    
+    margin-left: 2.5rem;
+    margin-right: 3.7%; 
+   
+    top: 4rem;
+    bottom: 0%;
+
+}
+/*   contenedor del menu principallll */
+.div_main{
+    display: flex;
+    width: 100%;
+    height: 72rem;
+    flex-wrap: wrap; 
+    margin-top: 0rem;
+    background: rgb(225, 226, 149);
+    
+    
+}
+/* parte izquierda */
+
+.div_izq{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+
+    
+    background:var(--color-main);;
+    
+
+}
+
+.div_mensaje{
+
+    display: flex;
+    width: 60%;
+    height: 80.7%;
+    background: var(--color-main);;
+    align-self:center;
+    border-radius: 3.2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 9%;
+    
+    
+
+}
+.in_entrada{
+    
+    width: 100%;
+    height:10%;
+    background-color:var(--color-main);;
+    font-family: 'Inter', sans-serif;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    border-radius: 1rem;
+    
+    box-sizing: border-box;
+    line-height: 150%;
+    
+    
+
+    
+    /* or 48px */
+
+    color: #0A3871;
+}
+
+
+.div_botones{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background: var(--color-main);;
+    align-self:flex-end;
+    border-radius: 3.2rem;
+    justify-content:space-between;
+    align-items: flex-end;
+    
+
+}
+.div_encriptar{
+    display: flex;
+    width: 40%;
+    height: 100%;  
+    padding: 3%; 
+    
+    background: #0A3871;
+    border-radius: 2.4rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.6rem;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+.div_desencriptar{
+
+    display: flex;
+    width: 40%;
+    height: 100%;  
+   
+    background: var(--color-main);;
+   
+    border-radius: 2.4rem;
+    border: 1px solid #0A3871;
+    text-align: center;
+
+    color: #0A3871;
+    text-align: center;
+    font-size: 1.6rem;
+    justify-content: center;
+    padding: 3%; 
+    font-family: 'Inter', sans-serif;
+
+}
+/* parte derecha */
+
+.div_dere{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background: var(--color-main);;
+    flex-direction: column; 
+    margin-top: 0rem;
+    
+    
+     
+    
+}
+
+.div_salida{
+    display: flex;
+    width: 60%;
+    height: 94%;
+    background:#FFFFFF;;
+    align-self:center;
+    border-radius: 2.4rem;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.muñeco{
+    
+    display: flex;
+    align-self:center;
+    width: 100%;
+    height: 100%;
+}
+.div_textosalida{
+    
+    width: 80%;
+    height: 80%;
+    background:#ffffff;
+    align-self:center;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 10%;
+    position: relative;
+   
+
+
+}
+
+#salidat {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2.2rem; 
+    align-self:center;
+   
+
+}
+
+
+.div_copiar{
+    display: flex;
+    width: 100%;
+    height: 10.8%;
+    background: white;
+    align-self: flex-end;
+    border-radius: 3.2rem;
+    flex-direction: column;
+    padding-bottom: 5%;
+
+}
+
+.but_copiar{
+    display: flex;
+    width: 75%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    align-self:center;
+    border-radius: 2.4rem;
+    border: 1px solid #0A3871;
+
+    color: #0A3871;
+    text-align: center;
+    font-size: 1.6rem;
+    justify-content: center;
+    padding: 5.5%; 
+    font-family: 'Inter', sans-serif;
+
+
+}
+
